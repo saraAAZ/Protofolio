@@ -74,7 +74,7 @@ body {
 .my-image-section {
     margin-left: 20px;
 }
-img {
+.my-image-section img {
     height: 100%;
     position: absolute;
     bottom:0;
@@ -116,3 +116,43 @@ img {
     border-radius:2rem;
 }
 /* About Section */
+.about-section{
+    margin: 3rem 0rem;
+    width: 100%;
+    background:linear-gradient(360deg, #f8edeb 10%,#f8edeb 40% ,#f8d3cb 100%);
+    /* background-color: #c72d12; */
+}
+.intro-wrapper{
+    padding: 2rem 0rem 0rem 0rem;
+}
+.flex-col{
+    flex-direction: column;
+}
+.about-section-container{
+    padding: 2rem;
+}
+.intro-wrapper h2{
+    font-size: 1.9rem;
+    font-variant: small-caps;
+    color: #c79c76;
+    text-shadow: #eab88c 0px 3px 3px;
+    opacity: .9;
+
+}
+.intro-wrapper h3{
+    font-size: .8rem;
+    font-weight: 300;
+}
+.about-section-container img{
+    width: 8rem;
+    height: 9rem;
+    margin-left: 2rem;
+}
+.about-wrapper{
+    margin-left: 2rem;
+    width: 30%;
+}
+.about-card{
+    border: 2px solid lightblue;
+    width: 8rem;
+}
