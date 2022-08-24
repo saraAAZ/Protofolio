@@ -49,6 +49,7 @@
 }
 /* Body Style */
 body{
+    background-color:#f8edeb;
 }
 /* Home Style */
 /* --> about-me-section Style <-- */
@@ -56,8 +57,6 @@ body{
     width:100%;
     font-size: 1rem;
     text-transform: capitalize;
-    background-color:#f8edeb;
-
 }
 .about-me-section{
     margin-left: -1rem;
@@ -84,12 +83,12 @@ img{
   background: linear-gradient(45deg,  #ffb5a7 0%,#fec89a 20% , #f8edeb 100%);
   animation: fancy-div 8s ease-in-out infinite;
   border-radius: 30% 70% 59% 41% / 44% 63% 37% 56% ;
-  height: 420px;
+  height: 425px;
   transition: all 1s ease-in-out;
   width: 360px;
   margin-top:8rem;
   margin-left: 0.3rem;
-}
+}   
 @keyframes fancy-div {
     0% {
               border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
