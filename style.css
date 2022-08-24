@@ -72,6 +72,9 @@ body{
     line-height: 1.6;   
     letter-spacing: .08rem;
 }
+.my-image-section{
+    margin-left: 20px;
+}
 img{
     height: 100%;
     position: absolute;
@@ -80,15 +83,15 @@ img{
 }
 .fancy-shape{
   background: linear-gradient(45deg,  #ffb5a7 0%,#fec89a 20% , #f8edeb 100%);
-  animation: animated-div 8s ease-in-out infinite;
+  animation: fancy-div 8s ease-in-out infinite;
   border-radius: 30% 70% 59% 41% / 44% 63% 37% 56% ;
   height: 420px;
   transition: all 1s ease-in-out;
-  width: 350px;
+  width: 360px;
   margin-top:8rem;
-  margin-left: 5.3rem;
+  margin-left: 0.3rem;
 }
-@keyframes animated-div {
+@keyframes fancy-div {
     0% {
               border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
               background: linear-gradient(45deg,  #ffb5a7 0%,#fec89a 20% , #f8edeb 100%);
