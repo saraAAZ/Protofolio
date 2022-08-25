@@ -34,7 +34,7 @@
     color: #c79c76;
     font-family: 'Clicker Script', cursive;
     font-variant: uppercase;
-    transform: text-shadow 350ms ease-in-out;
+    transform: text-shadow 850ms ease-in-out;
 }
 .nav-logo:hover{
     text-shadow: 0 0 .5rem #fffefd,
@@ -205,12 +205,6 @@ body {
     border-radius: 50%;
     z-index: 1px;
 }
-.image-content img{
-    width: 12rem;
-    height: 16.5rem;
-    margin-left: 2rem;
- 
-}
 @keyframes animate-border{
     0%{
         transform: rotate(0deg);
@@ -326,4 +320,9 @@ body {
 }
 .contact-me:hover,.contact-me:focus{
     outline-offset: -6px;
+}
+.section-border{
+    width: 100%;
+    background: linear-gradient(45deg, #ffb5a7 0%,#f8edeb 80% ,#ffb5a7 100%);
+    height: 0.4rem;
 }
