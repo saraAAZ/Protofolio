@@ -433,6 +433,8 @@ body {
 }
 .part-contact-sec h5 img{
     vertical-align: middle;
+    height: 30px;
+    width: 30px;
 }
 .social-part{
     margin: .1rem 2rem 0rem 1.2rem;
