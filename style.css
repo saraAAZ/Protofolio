@@ -80,7 +80,7 @@ body {
     text-transform: capitalize;
 }
 .about-me-section {
-    margin-left: -1rem;
+    /* margin-left: -1rem; */
 }
 .about-me-section span ,.part-contact-sec> h5 span{
     color: #c79c76;
@@ -106,12 +106,13 @@ body {
 }
 .my-image-section {
     margin-left: 20px;
+    position: relative;
 }
 .my-image-section img {
     height: 100%;
     position: absolute;
     bottom:0;
-    left: 50%;
+    /* left: 50%; */
 }
 .fancy-shape {
     background: linear-gradient(45deg, #ffb5a7 0%,#fec89a 20% , #f8edeb 100%);
@@ -143,8 +144,6 @@ body {
     width: 100%;
     background: linear-gradient(45deg, #ffb5a7 0%,#f8edeb 80% ,#ffb5a7 100%);
     height: 0.4rem;
-    /* right: 16.9rem; */
-    top: 610px;
     position: absolute;
     border-radius:2rem;
 }
@@ -301,7 +300,7 @@ body {
     letter-spacing: .012;
     text-transform: capitalize;
 }
-.contact-me{
+.contact{
     background-color:none;
     border: 1px solid #c79c76;
     width: 20%;
@@ -313,13 +312,13 @@ body {
     outline:2px ridge #F8DED9 ;
     transition: outline-offset 750ms ease;
 }
-.contact-me a{
+.contact a{
     color: white;
     font-size: 1rem;
     text-decoration: none;
     font-variant: small-caps;
 }
-.contact-me:hover,.contact-me:focus , button:focus , button:hover{
+.contact:hover,.contact:focus , button:focus , button:hover{
     outline-offset: -6px;
 }
 .section-border{
