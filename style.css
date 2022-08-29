@@ -79,9 +79,7 @@ body {
     font-size: 1rem;
     text-transform: capitalize;
 }
-.about-me-section {
-    /* margin-left: -1rem; */
-}
+
 .about-me-section span ,.part-contact-sec> h5 span{
     color: #c79c76;
     font-family: 'Clicker Script', cursive;
@@ -100,6 +98,8 @@ body {
 }
 .download-resume{
     margin: 1% 2% 2% 2%;
+    width: -moz-fit-content !important;    /* Firefox */
+    width: -webkit-fit-content !important; /* Chrome */
     width: fit-content !important;
 }
 .border-bottom{
@@ -461,8 +461,8 @@ body {
 }
 .form{
     background-image:linear-gradient(-45deg, #FEB6A5 10%,#ebc29e 50% , #f8edeb 100%);;
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
+    /* -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px); */
     opacity: 0.8;
     padding: 2rem;
     width: 35%;
