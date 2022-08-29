@@ -52,7 +52,7 @@
     cursor: pointer;
     list-style: none;
 }
-.nav-item a,
+.nav-item a,.download-resume a,
 .nav-logo {
     cursor: pointer;
     text-decoration: none;
@@ -97,6 +97,10 @@ body {
 .about-me-section p {
     line-height: 1.6;
     letter-spacing: 0.065rem;
+}
+.download-resume{
+    margin: 1% 2% 2% 2%;
+    width: fit-content !important;
 }
 .border-bottom{
     width: 100%;
@@ -300,7 +304,7 @@ body {
     letter-spacing: .012;
     text-transform: capitalize;
 }
-.contact{
+.contact,.download-resume{
     background-color:none;
     border: 1px solid #c79c76;
     width: 20%;
@@ -312,13 +316,13 @@ body {
     outline:2px ridge #F8DED9 ;
     transition: outline-offset 750ms ease;
 }
-.contact a{
+.contact a ,.download-resume a{
     color: white;
     font-size: 1rem;
     text-decoration: none;
     font-variant: small-caps;
 }
-.contact:hover,.contact:focus , button:focus , button:hover{
+.contact:hover,.contact:focus , button:focus , button:hover, .download-resume:focus , .download-resume:hover{
     outline-offset: -6px;
 }
 .section-border{
