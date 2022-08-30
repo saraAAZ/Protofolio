@@ -9,7 +9,11 @@
     width: 100%;
     height: 10vh;
     font-weight: 500;
-    background-color: #f8edeb;
+    background-color: #F8EDEB;
+    position: fixed;
+    transition: .4s;
+    top: 0;
+    z-index: 5px;
 }
 .container {
     width: 90%;
@@ -68,23 +72,24 @@
 /* Body Style */
 body {
     background-color: #f8edeb;
+    position: relative;
 }
 /* Home Style */
 /* --> home-section Style <-- */
 .home-section{
-    height: 90vh;
+    height: 100vh;
 }
 .about-container {
     width: 100%;
     font-size: 1rem;
     text-transform: capitalize;
+    height: 100%;
 }
-
 .about-me-section span ,.part-contact-sec> h5 span{
     color: #c79c76;
     font-family: 'Clicker Script', cursive;
     font-size: 2.4rem;
-    margin: 0 .4rem;
+    margin: 0 .6rem;
     transition: text-shadow 700ms ease-in-out;
     text-shadow: 0 0 .6rem #fffefd,
     0 0 .65rem #fffefd,
@@ -95,6 +100,7 @@ body {
 .about-me-section p {
     line-height: 1.6;
     letter-spacing: 0.065rem;
+    /* position: relative; */
 }
 .download-resume{
     margin: 1% 2% 2% 2%;
@@ -109,13 +115,14 @@ body {
     background-image:linear-gradient(45deg, #ffb5a7 0%,#fec89a 20% , #f8edeb 100%);
 }
 .my-image-section {
-    margin-left: 20px;
+    /* margin-left: 20px; */
     position: relative;
+    height: 100%;
 }
 .my-image-section img {
     height: 100%;
     position: absolute;
-    bottom:0;
+    bottom:0px;
     /* left: 50%; */
 }
 .fancy-shape {
@@ -125,7 +132,7 @@ body {
     height: 427px;
     transition: all 1s ease-in-out;
     width: 360px;
-    margin-top: 8rem;
+    margin-top: 9.6em;
     margin-left: 0.3rem;
 }
 @keyframes fancy-div {
@@ -148,7 +155,6 @@ body {
     width: 100%;
     background: linear-gradient(45deg, #ffb5a7 0%,#f8edeb 80% ,#ffb5a7 100%);
     height: 0.4rem;
-    position: absolute;
     border-radius:2rem;
 }
 /*--> about-me-section Style <--  */
