@@ -11,8 +11,8 @@
     font-weight: 500;
     background-color: #F8EDEB;
     position: fixed;
-    transition: .4s;
-    z-index: 5px;
+    transition: all 0.5s;
+    z-index: 1;
 }
 .container {
     width: 90%;
