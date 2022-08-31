@@ -12,7 +12,6 @@
     background-color: #F8EDEB;
     position: fixed;
     transition: .4s;
-    top: 0;
     z-index: 5px;
 }
 .container {
