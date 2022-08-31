@@ -13,7 +13,8 @@ html{
     width: 100%;
     height: 10vh;
     font-weight: 500;
-    background-color: #F8EDEB;
+    background: rgba(248,237,235,.6);
+    backdrop-filter: blur(10px);
     position: fixed;
     transition: all 0.5s;
     z-index: 3;
