@@ -16,7 +16,7 @@ html{
     background: rgba(248,237,235,.6);
     backdrop-filter: blur(10px);
     position: fixed;
-    transition: all 0.5s;
+    transition:  text-shadow 0.5s;
     z-index: 3;
 }
 .container {
@@ -43,9 +43,10 @@ html{
     color: #c79c76;
     font-family: 'Clicker Script', cursive;
     font-variant: uppercase;
-    transform: text-shadow 850ms ease-in-out;
+    transition: text-shadow 100ms ease-in-out;
 }
 .nav-logo:hover{
+    cursor: pointer;
     text-shadow: 0 0 .5rem #fffefd,
     0 0 .55rem #fffefd,
     0 0 .6rem #fffefd,
