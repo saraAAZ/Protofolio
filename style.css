@@ -414,6 +414,9 @@ body {
 .intro-wrapper .under-title-border:last-of-type{
     width: 16rem;
 }
+.intro-wrapper h2:last-of-type{
+    margin-top: 1.2rem;
+}
 .contact-wrapper{
     background-image:linear-gradient(-45deg, #ffb5a7 10%,#fec89a 20% , #f8edeb 100%);
     width: 65%;
