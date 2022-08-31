@@ -413,6 +413,7 @@ body {
 }
 .intro-wrapper .under-title-border:last-of-type{
     width: 16rem;
+    margin-bottom: -1rem;
 }
 .intro-wrapper h2:last-of-type{
     margin-top: 1.2rem;
