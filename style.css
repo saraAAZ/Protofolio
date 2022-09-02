@@ -455,6 +455,12 @@ body {
     transform: rotate(35deg);
     filter: blur(15px); 
 } 
+.card:nth-child(1),.card:nth-child(3){
+    background: linear-gradient(to bottom, #fec89a 10%, #f7c7be 60%, #f8edeb 100%);
+}
+.card:nth-child(2){
+    background: linear-gradient(to bottom, #e6b6ae 10%, #f4eceb 60%, #f5e5d8 100%);
+}
 .icon{
     width: 3rem;
     height: 3rem;
@@ -525,16 +531,34 @@ body {
     text-align: center;
     padding: .4rem .6rem;
     color: #b98787;
-    transition: margin-bottom 750ms ease;
+    transition: all #997e67;
+    transition-duration: 2s;
 }
 .show-me-link div{
     height: 2px;
     margin : auto;
     border-radius: 50%;
     background-color: #997e67;
-}
-.show-me-link a:hover , .show-me-link div{
     width: 70%;
+    transition-duration: 2s;
+
+    /* transition: all 4s #997e67; */
+}
+.show-me-link a:hover +div{
+    width: 80%;
+    height: 3px;
+    background: #b98787;
+}
+.project-section h6{
+    text-align: center;
+    font-size: .9rem;
+    font-variant: small-caps;
+}
+.project-section h6 a img {
+    width :1.5rem;
+    height: 1.5rem;
+    vertical-align: middle;
+    margin-left: .4rem;
 }
 /* --> contact-section Style <--   */
 .contact-section{
