@@ -546,7 +546,6 @@ body {
 }
 .show-me-link a:hover +div{
     width: 80%;
-    height: 3px;
     background: #b98787;
 }
 .project-section h6{
